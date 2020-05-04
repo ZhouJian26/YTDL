@@ -1,6 +1,6 @@
 # YTDL
 
-A JS script to download Audio or Video from different website (included YouTube).
+A JS script to download Audio or Video YouTube.
 
 ## Install
 
@@ -13,20 +13,8 @@ Clone the repo and install all modules
 To download a video
 `> node . (url)`
 
-or to download a specific format
-`> node . (url) FORMAT`
-
-**FORMAT**
-
-- mp4
-- m4a
-- mp3
-- ogg
-- wav
-- webm
-- aac
-- 3gp
-- flv
+or to download **Only Audio**
+`> node . (url) audio`
 
 ### Example
 
@@ -34,7 +22,7 @@ This download a video from the url
 `> node . https://www.youtube.com/watch?v=4Q46xYqUwZQ`
 
 This download **Only Audio** from the url  
-`> node . https://www.youtube.com/watch?v=4Q46xYqUwZQ m4a`
+`> node . https://www.youtube.com/watch?v=4Q46xYqUwZQ audio`
 
 ## Note
 

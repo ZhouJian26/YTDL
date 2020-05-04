@@ -6,11 +6,23 @@ const youtubedl = require("youtube-dl");
 if (!fs.existsSync(dir)) fs.mkdirSync(dir); //Create the folder if doesn't exists
 
 if (process.argv.length > 2) {
-  const video = youtubedl(
-    process.argv[2],
-    ["-f", process.argv.length == 3 ? "mp4" : process.argv[3]],
-    {}
-  );
+  if (process.argv.length == 4 && process.argv[3] == "audio") {
+    console.log("Download started");
+    youtubedl.exec(
+      process.argv[2],
+      ["-x", "--audio-format", "mp3"],
+      {
+        cwd: "./out",
+      },
+      (err, output) => {
+        if (err) throw err;
+        console.log(output.join("\n"));
+      }
+    );
+    return;
+  }
+
+  const video = youtubedl(process.argv[2]);
   video.on("info", (info) => {
     let size = info.size;
     let pos = 0;
