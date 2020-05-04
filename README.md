@@ -4,7 +4,7 @@ A JS script to download Audio or Video from Youtube.
 
 ## Install
 
-First, install all modules
+Clone the repo and install all modules
 
 `> npm i`
 
