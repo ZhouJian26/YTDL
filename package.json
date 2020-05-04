@@ -1,0 +1,24 @@
+{
+  "name": "ytdl",
+  "version": "1.0.0",
+  "description": "A JS Script to download from YT",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhou0998/YTDL.git"
+  },
+  "author": "Zhou Jian",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zhou0998/YTDL/issues"
+  },
+  "homepage": "https://github.com/zhou0998/YTDL#readme",
+  "dependencies": {
+    "fluent-ffmpeg": "^2.1.2",
+    "readline": "^1.3.0",
+    "ytdl-core": "^2.1.1"
+  }
+}
