@@ -10,10 +10,10 @@ Clone the repo and install all modules
 
 ## Use
 
-To download **Only Audio**
+To download **Only Audio**  
 `> node audioDownloader.js (Youtube url)`
 
-To download **Video**
+To download **Video**  
 `> node videoDownloader.js (Youtube url)`
 
 ### Example
