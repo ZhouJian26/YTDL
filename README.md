@@ -11,11 +11,18 @@ First, install all modules
 ## Use
 
 To download **Only Audio**
-`> npm audioDownloader.js (Youtube url)`
+`> node audioDownloader.js (Youtube url)`
 
 To download **Video**
-`> npm videoDownloader.js (Youtube url)`
+`> node videoDownloader.js (Youtube url)`
 
 ### Example
 
-`> npm videoDownloader.js https://www.youtube.com/watch?v=4Q46xYqUwZQ`
+`> node videoDownloader.js https://www.youtube.com/watch?v=4Q46xYqUwZQ`
+
+## Note
+
+Those scripts are based on:
+
+- fluent-ffmpeg
+- ytdl-core
