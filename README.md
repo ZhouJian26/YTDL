@@ -27,3 +27,8 @@ This download **Only Audio** from the url
 ## Note
 
 Those scripts are based on `youtube-dl`
+
+## Next Step
+
+- [ ] use docker 
+- [ ] create a webapp, instead using command line
