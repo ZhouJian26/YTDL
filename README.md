@@ -21,7 +21,7 @@ or to download **Only Audio**
 This download a video from the url  
 `> node . https://www.youtube.com/watch?v=4Q46xYqUwZQ`
 
-This download **Only Audio** from the url  
+This download **Only Audio** from the url (you need have installed `ffmpeg`)  
 `> node . https://www.youtube.com/watch?v=4Q46xYqUwZQ audio`
 
 ## Note
